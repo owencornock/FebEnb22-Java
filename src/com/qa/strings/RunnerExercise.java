@@ -1,32 +1,19 @@
 package com.qa.strings;
 
-import java.util.Scanner;
-
 public class RunnerExercise {
 		
 
-		public static int
-		countWords(String str)
-		{
-			
-			if (str == null || str.isEmpty())
-				return 0;
-			
+		public String[] methodOne(String str) {
 			String[] words = str.split("\\s+");
-			
-			return words.length;
+			return words;
 		}
 		
-		
-		
-		public static void main(String args[])
-		{
 			
 			String str = "Hello there General Kenobi";
 			
-			System.out.println("No of words : " + countWords(str));
+			System.out.println("No of words : " + methodOne(str));
 			System.out.println(str.replace(" ", "\n"));
-
+			
 //			This reverse all chars not words
 //			for(int i=str.length()-1;i>=0;i--)
 //			{
@@ -43,4 +30,3 @@ public class RunnerExercise {
 		
 		}
 		
-	}
