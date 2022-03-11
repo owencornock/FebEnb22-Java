@@ -40,6 +40,9 @@ public class runner {
 		for(String str : listOfStrings) {
 			System.out.println(str);
 		}
+//		Gives us the index position of an element, if it's there
+		System.out.println(listOfStrings.indexOf("There"));
+		
 		
 	}
 	
