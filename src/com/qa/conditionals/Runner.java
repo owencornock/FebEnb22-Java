@@ -25,15 +25,23 @@ public class Runner {
 //	System.out.println(result);
 
 //	Taxes
-	Taxes t = new Taxes();
+//	Taxes t = new Taxes();
+//	
+//	int result = t.methodFive(130000);
+//	int resultT = t.methodSix(20000);
+//	int resultTt = t.methodSeven(20000);
+//	
+//	System.out.println("tax: " + result + "%");
+//	System.out.println("Taxed amount: " + "£" + resultT);	
+//	System.out.println("Taxed amount: " + "£" + resultTt);
+
+//	FizzBuzz
+	FizzBuzz f = new FizzBuzz ();
+	String result = f.methodEight(2);
 	
-	int result = t.methodFive(130000);
-	int resultT = t.methodSix(20000);
-	int resultTt = t.methodSeven(20000);
+	System.out.println(result);
 	
-	System.out.println("tax: " + result + "%");
-	System.out.println("Taxed amount: " + "£" + resultT);	
-	System.out.println("Taxed amount: " + "£" + resultTt);
+	
 	}
 
 

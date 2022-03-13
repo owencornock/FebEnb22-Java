@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * @author acer
- *
- */
-package scope;
