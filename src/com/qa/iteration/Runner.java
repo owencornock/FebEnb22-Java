@@ -4,7 +4,10 @@ public class Runner {
 	
 	public static void main(String[] args) {
 		
-		Coins c = new Coins();
-		c.calcChange();
+		Flowcharts f = new Flowcharts();
+		f.methodOne();
+		
+//		Coins c = new Coins();
+//		c.calcChange();
 	}
 }

@@ -36,11 +36,11 @@ public class Runner {
 //	System.out.println("Taxed amount: " + "£" + resultTt);
 
 //	FizzBuzz
-	FizzBuzz f = new FizzBuzz ();
-	String result = f.methodEight(2);
-	
-	System.out.println(result);
-	
+//	FizzBuzz f = new FizzBuzz ();
+//	String result = f.methodEight(15);
+//	
+//	System.out.println(result);
+//	
 	
 	}
 

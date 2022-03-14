@@ -14,28 +14,33 @@ public class Flowcharts {
 		
 		if (input) {
 			return numOne + numTwo;
-	}	else {
+		}	else {
 			return numOne * numTwo;
 		}
 	
 	}
-	public void methodFour(int a) {
-		this.a = a;
 		
-		if(a > 2000) {
-			System.out.println("A");
-		}	else {
-			System.out.println("1"); 
-			if(a > 100) {
-				System.out.println("3");
-				else if(a > 600); {
-				System.out.println("5");
-				}
-			else {
-					System.out.println("4");
-				}
-			else {
-				System.out.println("2");
+	public String methodFour(Integer input) {
+		
+		if(input > 2000) {
+				return "A";
+		}	else if(input <= 2000){
+				return "1";
+			if(input > 100) {
+				return "3";
+			if(input > 600) {
+				return "5";
+		}	else if(input <= 600) {
+				return "4";
+			if(input > 500) {
+				return "6";
+		}	else if(input <= 500) {
+				return "7";
+		}
+		}
+			}	
+			
+
 			}
 		}
 		
@@ -43,4 +48,4 @@ public class Flowcharts {
 
 	
 	
-}
+
