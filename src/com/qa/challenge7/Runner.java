@@ -1,7 +1,5 @@
 package com.qa.challenge7;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class Runner {
 	
@@ -16,12 +14,19 @@ public class Runner {
 	System.out.println(josh);
 	System.out.println(tim);
 	
-	List<Person> myPerson = new ArrayList<>();
+//	List<Person> myPerson = new ArrayList<>();
+//	
+//	myPerson.add(owen);
+//	myPerson.add(tim);
+//	myPerson.add(josh);
 	
-	myPerson.add(owen);
-	myPerson.add(tim);
-	myPerson.add(josh);
+	PersonManager pm = new PersonManager();
 	
-	
+	pm.addList(tim);
+	pm.addList(josh);
+	pm.addList(owen);
+		
+		
 	}
-}
+	}
+
