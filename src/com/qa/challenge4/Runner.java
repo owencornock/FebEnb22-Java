@@ -13,6 +13,14 @@ public class Runner {
 		garage.addToGarage(mbOne);
 		garage.addToGarage(carOne);
 		
+		garage.bill(vanOne);
 		
+		garage.removeVehicle(vanOne);
+		
+		garage.emptyGarage();
+		
+		garage.removeVehicleType();
+		
+		garage.removerE();
 	}
 }
